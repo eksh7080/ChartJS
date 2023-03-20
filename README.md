@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 페이스북 마케팅 리포트 - 차트
 
-## Getting Started
+<br />
 
-First, run the development server:
+## 0. 실행 방법
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+-   local = npm run dev
+-   server = npm run server
+-   build = npm run build
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 1. 프로젝트 소개
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+> Chats.js, react-chatjs-2 사용하여 데이터 수치화
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Chats.js, react-chatjs-2 사용 이유
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+-   d3 라이브러리에 비해 리액트 환경에서 사용하기 편한 react-chartjs-2 라이브러리가 있었기 때문에 chartjs를 선택하였습니다. 스타일 커스텀에 있어 자유도가 높았고 관련 API들이 입문자도 사용하기 쉽게 직관적이었다고 생각합니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<br>
 
-## Learn More
+## 2. 기술 스택
 
-To learn more about Next.js, take a look at the following resources:
+### 2-2 Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Next.js, Typescript, React, Emotion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 2-3 server
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> json-server
