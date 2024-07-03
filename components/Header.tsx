@@ -13,7 +13,7 @@ const HeaderContainer = styled.section`
         justify-content: space-between;
 
         & article:first-of-type {
-            max-width: 100%;
+            width: 30%;
             padding-left: 2rem;
             & small {
                 color: ${prop => prop.theme.colors.themeColor};
@@ -32,6 +32,15 @@ const HeaderContainer = styled.section`
                     color: ${prop => prop.theme.colors.themeColor};
                     font-weight: 600;
                 }
+            }
+        }
+
+        article:last-of-type {
+            width: 70%;
+            height: 120px;
+            img {
+                width: 100%;
+                height: 100%;
             }
         }
     }
@@ -115,12 +124,12 @@ const Header = () => {
         <HeaderContainer style={{ backgroundColor: '#fff' }}>
             <div className="titleExplain">
                 <article>
-                    <small>삼양물산 마케팅 리포트</small>
+                    <small>예시: 페이스북</small>
                     <ul>
                         <li>
                             <Image src={HeaderLogo} alt="HeaderLogo" priority />
                         </li>
-                        <li>페이스북 마케팅 성과분석</li>
+                        <li>차트,그래프 시각화</li>
                     </ul>
                 </article>
                 <article>
