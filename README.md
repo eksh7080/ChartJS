@@ -1,5 +1,5 @@
 # 시각화 그래프
-
+![시각화 기록](https://github.com/eksh7080/ChartJS/assets/93601210/8ae8b12b-6adc-4257-baca-56ec694b7e9d)
 <br />
 
 ## 0. 실행 방법
